@@ -1,11 +1,7 @@
 ---
-title: "andersnw.github.io"
+title: "Anders Norhagen Wik"
 ---
 
-This is a Quarto website.
+Hei, og velkommen til hjemmesiden min!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Her vil jeg dele notater fra de ulike kursene jeg underviser i.
