@@ -1,1 +1,114 @@
-/* css styles */
+/* Samme uttrykk som heftene: CMU Concrete, varm svart og rødbrun aksent. */
+@font-face { font-family: "Concrete"; src: url("fonts/cmunorm.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Concrete"; src: url("fonts/cmunoti.woff") format("woff"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Concrete"; src: url("fonts/cmunobx.woff") format("woff"); font-weight: 700; font-style: normal; font-display: swap; }
+
+:root {
+  --papir: #fbfaf7;
+  --blekk: #1c1b19;
+  --svak: #696969;
+  --strek: #d9d6cf;
+  --aksent: #9a3324;
+  --kort: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papir: #171614;
+    --blekk: #ece9e2;
+    --svak: #9d9a93;
+    --strek: #34322e;
+    --aksent: #d9775f;
+    --kort: #1f1e1b;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { background: var(--papir); }
+
+body {
+  margin: 0;
+  background: var(--papir);
+  color: var(--blekk);
+  font-family: "Concrete", Georgia, serif;
+  font-size: 19px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Quarto legger inn en tittelblokk og en header vi ikke trenger */
+#title-block-header, #quarto-header { display: none; }
+
+.side {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 18vh 1.25rem 4rem;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 1.1;
+  margin: 0 0 0.4rem;
+  letter-spacing: -0.01em;
+}
+
+.ingress {
+  display: block;
+  font-style: italic;
+  color: var(--svak);
+  font-size: 1.15rem;
+  padding-bottom: 2.2rem;
+  margin-bottom: 2.2rem;
+  border-bottom: 1px solid var(--strek);
+}
+
+.kurs { display: grid; gap: 1rem; }
+.kurs p { margin: 0; }
+
+a.kort {
+  display: block;
+  padding: 1.1rem 1.3rem 1.2rem;
+  background: var(--kort);
+  border: 1px solid var(--strek);
+  border-left: 3px solid var(--aksent);
+  border-radius: 4px;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 120ms ease, border-color 120ms ease;
+}
+a.kort:hover, a.kort:focus-visible {
+  transform: translateX(3px);
+  border-color: var(--aksent);
+}
+a.kort:focus-visible { outline: 2px solid var(--aksent); outline-offset: 3px; }
+
+.kort .kode {
+  display: block;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--aksent);
+}
+.kort .navn {
+  display: block;
+  font-size: 1.35rem;
+  margin: 0.1rem 0 0.25rem;
+}
+.kort .navn::after { content: "\00a0\2192"; color: var(--aksent); }
+.kort .tekst {
+  display: block;
+  color: var(--svak);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 30rem) {
+  body { font-size: 17px; }
+  .side { padding-top: 10vh; }
+  h1 { font-size: 2.1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a.kort { transition: none; }
+  a.kort:hover { transform: none; }
+}
