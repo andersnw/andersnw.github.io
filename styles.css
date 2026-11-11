@@ -63,6 +63,8 @@ h1 {
   border-bottom: 1px solid var(--strek);
 }
 
+.ingress .ledd { white-space: nowrap; }
+
 .kurs { display: grid; gap: 1rem; }
 .kurs p { margin: 0; }
 
