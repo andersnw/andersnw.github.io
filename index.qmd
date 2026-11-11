@@ -6,7 +6,7 @@ pagetitle: "Anders Norhagen Wik"
 
 # Anders Norhagen Wik
 
-[Kursnotater i matematikk]{.ingress}
+[[Lektor ved Ålesund vgs]{.ledd} · [timelærer ved NTNU]{.ledd}]{.ingress}
 
 ::: {.kurs}
 
