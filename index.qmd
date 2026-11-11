@@ -1,7 +1,19 @@
 ---
-title: "Anders Norhagen Wik"
+pagetitle: "Anders Norhagen Wik"
 ---
 
-Hei, og velkommen til hjemmesiden min!
+::: {.side}
 
-Her vil jeg dele notater fra de ulike kursene jeg underviser i.
+# Anders Norhagen Wik
+
+[Kursnotater i matematikk]{.ingress}
+
+::: {.kurs}
+
+[[R1]{.kode} [Matematikk R1]{.navn} [Teori, oppgaver og interaktive figurer for R1 i videregående skole.]{.tekst}](https://r1-matte.netlify.app){.kort}
+
+[[IMAx3011]{.kode} [Matematikk 3 for ingeniørfag]{.navn} [Sammendrag av pensum, oppgaver og notebooks.]{.tekst}](https://imax3011-mat3.netlify.app){.kort}
+
+:::
+
+:::

@@ -1,19 +1,22 @@
 project:
   type: website
+  resources:
+    - fonts/
+
+lang: nb
 
 website:
-  title: "andersnw.github.io"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  title: "Anders Norhagen Wik"
+  description: "Kursnotater i matematikk."
+  site-url: "https://andersnw.github.io"
+  favicon: favicon.svg
+  open-graph: true
 
 format:
   html:
-    theme: cosmo
+    theme: none
     css: styles.css
-    toc: true
-
-
-
+    toc: false
+    page-layout: custom
+    minimal: true
+    anchor-sections: false
