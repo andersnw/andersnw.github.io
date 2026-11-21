@@ -8,7 +8,7 @@ lang: nb
 website:
   title: "Anders Norhagen Wik"
   description: "Kursnotater i matematikk."
-  site-url: "https://andersnw.github.io"
+  site-url: "https://mattebok.no"
   favicon: favicon.svg
   open-graph: true
 

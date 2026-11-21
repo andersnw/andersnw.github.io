@@ -23,3 +23,12 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Render for Netlify
+        run: quarto render
+
+      - name: Deploy til Netlify (mattebok.no)
+        run: npx --yes netlify-cli@17.38.1 deploy --prod --dir _site --message "Deploy fra GitHub Actions (${{ github.sha }})"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

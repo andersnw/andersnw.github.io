@@ -10,19 +10,17 @@ pagetitle: "Anders Norhagen Wik"
 
 ::: {.kurs}
 
-[[1P]{.kode} [Matematikk 1P]{.navn} [Teori og oppgaver for 1P i videregående skole.]{.tekst}](https://1p-matte.netlify.app){.kort}
+[[1P]{.kode} [Matematikk 1P]{.navn} [Teori og oppgaver for 1P i videregående skole.]{.tekst}](https://1p.mattebok.no){.kort}
 
-[[1T]{.kode} [Matematikk 1T]{.navn} [Teori og oppgaver for 1T i videregående skole.]{.tekst}](https://1t-matte.netlify.app){.kort}
+[[1T]{.kode} [Matematikk 1T]{.navn} [Teori og oppgaver for 1T i videregående skole.]{.tekst}](https://1t.mattebok.no){.kort}
 
-[[R1]{.kode} [Matematikk R1]{.navn} [Teori, oppgaver og interaktive figurer for R1 i videregående skole.]{.tekst}](https://r1-matte.netlify.app){.kort}
+[[R1]{.kode} [Matematikk R1]{.navn} [Teori, oppgaver og interaktive figurer for R1 i videregående skole.]{.tekst}](https://r1.mattebok.no){.kort}
 
-[[R2]{.kode} [Matematikk R2]{.navn} [Teori og oppgaver for R2 i videregående skole.]{.tekst}](https://r2-matte.netlify.app){.kort}
+[[R2]{.kode} [Matematikk R2]{.navn} [Teori og oppgaver for R2 i videregående skole.]{.tekst}](https://r2.mattebok.no){.kort}
 
-[[Statistikk]{.kode} [Statistikk]{.navn} [Teori og oppgaver i statistikk.]{.tekst}](https://statistikk-matte.netlify.app){.kort}
+[[Statistikk]{.kode} [Statistikk]{.navn} [Teori og oppgaver i statistikk.]{.tekst}](https://statistikk.mattebok.no){.kort}
 
-[[IT2]{.kode} [Informasjonsteknologi 2]{.navn} [Teori og oppgaver for IT2.]{.tekst}](https://andersnw.github.io/IT2/){.kort}
-
-[[IMAx3011]{.kode} [Matematikk 3 for ingeniørfag]{.navn} [Sammendrag av pensum, oppgaver og notebooks.]{.tekst}](https://imax3011-mat3.netlify.app){.kort}
+[[IT2]{.kode} [Informasjonsteknologi 2]{.navn} [Teori og oppgaver for IT2.]{.tekst}](https://it2.mattebok.no){.kort}
 
 :::
 
